@@ -13,11 +13,11 @@ def verificador():
         
     else: 
         open(name_logs,'w')
-        print(name_logs + " has been created")
+        print(name_logs + " foi criado")
         getDateTime()
         nowMomentTime = getDateTime()
         logging.basicConfig(filename=name_logs, encoding='utf-8', level= logging.INFO)
-        logging.info(nowMomentTime + " - Logs file has been created")
+        logging.info(nowMomentTime + " - O ficheiro logs foi criado")
 
 
 
