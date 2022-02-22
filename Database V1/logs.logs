@@ -1,7 +1,0 @@
-INFO:root:29/01/2022 02:20:15 - Logs file has been created
-INFO:root:29/01/2022 02:20:15 - Program has been started
-CRITICAL:root:29/01/2022 02:20:15 - Error while connecting to MariaDB Platform 
-  Error -  1045 (28000): Access denied for user 'datawarehoue'@'localhost' (using password: YES) 
-INFO:root:29/01/2022 02:20:15 Program has been shutdown due to a critical error
-INFO:root:29/01/2022 02:20:36 - Program has been started
-INFO:root:29/01/2022 02:20:37 - Program has been run
