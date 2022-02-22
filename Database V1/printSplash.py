@@ -25,8 +25,8 @@ def printSplash():
 
      print ( "\n\n" )
      printString (_function_name,"***********************************************************************")
-     printString ( _function_name,"System version is : " + sys.version )
+     printString ( _function_name,"A versão do sistema é: " + sys.version )
      nowDateTime = getDateTime()
-     printString ( _function_name,"Date and time is :" + nowDateTime )
+     printString ( _function_name,"Hora atual: " + nowDateTime )
      printString (_function_name,"***********************************************************************")
      print ( "\n" )
