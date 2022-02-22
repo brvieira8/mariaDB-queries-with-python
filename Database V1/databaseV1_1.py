@@ -1,6 +1,4 @@
 #***************************************************************************
-#Fazemos import do nosso módulo - myMariaDB
-#Fazemos import do printSplash que permite apagar a consola
 
 from myMariaDB import *
 from printSplash import *
@@ -14,12 +12,11 @@ logging.basicConfig(filename="logs.logs", encoding='utf-8', level= logging.INFO)
 log_program_started()
 
 #***************************************************************************
-#Corremos a função printSplash() para limpar a consola
+
 printSplash()
 
 #***************************************************************************
 
-#Corremos a função connect() para estabelecer a ligação com a base de dados
 connect()
 
 #***************************************************************************
@@ -75,7 +72,7 @@ limit 50;"""
 #***************************************************************************
 
 #Definimos as headers que iremos utilizar na função tabela()
-#Estes contêm o título de cada coluna
+
 header1 = ['Name', 'Birthday Date', 'Employee no.', 'Job', 'Salary']
 header2 = ['Employee no.', 'First Name', 'Last Name', 'Birthday Date', 'Salary']
 header3 = ['Employee Name', 'Birth Date', 'emp_no', 'Department name','Salary Total']
@@ -92,7 +89,7 @@ query_table(query3, header3)
 
 #***************************************************************************
 
-#Excutamos a função disconnect que permite terminar a conexão com a base de dados
+
 disconnect()
 
 #***************************************************************************
